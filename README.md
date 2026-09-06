@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="illustration.png" width="200"/>
+</p>
 # offgrid.store - Commerce Without Internet
 > Buy in Paris, collect in Awaé. An offline-first protocol for rural Cameroon.
 
