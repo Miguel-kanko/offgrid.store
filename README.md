@@ -1,6 +1,8 @@
 <p align="center">
   <img src="illustration.png" width="300"/>
-</p> 
+</p>
+ ### How it Works (Concept Diagram)
+> *Illustration of the SMS code flow - Conceptual architecture*
 
 # offgrid.store - Commerce Without Internet
 > Buy in Paris, collect in Awaé. An offline-first protocol for rural Cameroon.
@@ -19,11 +21,6 @@ In Awaé, near Yaoundé:
 
 ### The Vision: How it Will Work
 Not an app that needs internet, but a protocol that works without it.
-
-### How it Works (Concept Diagram)
-> *Illustration of the SMS code flow - Conceptual architecture*
-
-illustration.png
  
 **1. 100% Offline Vendor App:** A mama in Awaé can add "1 bag of cassava - 15.000 FCFA" on her phone with ZERO internet. It's saved locally (SQLite).
 
