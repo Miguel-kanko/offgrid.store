@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="illustration.png" width="200"/>
+  <img src="illustration.png" width="300"/>
 </p> 
 
 # offgrid.store - Commerce Without Internet
