@@ -1,6 +1,7 @@
 <p align="center">
   <img src="illustration.png" width="300"/>
 </p>
+
  ### How it Works (Concept Diagram)
 > *Illustration of the SMS code flow - Conceptual architecture*
 
