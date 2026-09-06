@@ -28,7 +28,7 @@ Not an app that needs internet, but a protocol that works without it.
 This is not just an idea. I started field research:
 
 - **Sept 2026:** Interviewed 12 sellers at Awaé Market (2h each) - Main finding: MTN cuts 3-4h/day, they lose clients
-- **Products listed:** 23 real products documented with real prices (cassava, plantain, palm oil, etc.) in FCFA
+- **Products listed:** 50 real products documented with real prices (water, plantain, palm oil, etc.) in FCFA
 - **Test:** Tested SMS collection logic with my aunt - validated that code system can work without internet
 - **Next:** Interview 38 more sellers to reach 50
 
