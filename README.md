@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="illustration.png" width="400"/>
+  <img src="illustration.png" width="500"/>
 </p>
 
  ### How it Works (Concept Diagram)
