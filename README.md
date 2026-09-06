@@ -20,6 +20,11 @@ In Awaé, near Yaoundé:
 ### The Vision: How it Will Work
 Not an app that needs internet, but a protocol that works without it.
 
+### How it Works (Concept Diagram)
+> *Illustration of the SMS code flow - Conceptual architecture*
+
+illustration.png
+ 
 **1. 100% Offline Vendor App:** A mama in Awaé can add "1 bag of cassava - 15.000 FCFA" on her phone with ZERO internet. It's saved locally (SQLite).
 
 **2. The SMS Code System (No Internet Needed):** The app generates a code offline: `OFFGRID-7A3B: 1 bag of cassava from Mary - Awaé Market`. The buyer just shows this code. No smartphone needed to collect.
