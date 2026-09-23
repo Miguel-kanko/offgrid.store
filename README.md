@@ -46,7 +46,7 @@ I have completed field research in Awaé:
 - **Next:** Build offline vendor app that shows the 50 products 100% offline + generates OFFGRID code
 
 ### Real Market Data
-- **Live dataset:** [50 products from Awaé Market - Sept 2026](./product.json)
+- **Live dataset:** [50 products from Awaé Market - Sept 2026](./products.json)
 - **Fieldwork log:** [Fieldwork - Sept 3, 2026](./research/fieldwork-03-sept-2026.md)
 
 ### Tech Stack (Planned)
