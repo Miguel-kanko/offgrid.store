@@ -39,14 +39,14 @@ This will be the first dataset of real offline commerce from rural Cameroon.
 ### Current Status: BUILD PHASE - Sept 2026
 I have completed field research in Awaé:
 
-- **Sept 3, 2026:** Documented 50 real products with real prices (cassava, plantain, palm oil, etc.) in FCFA from Awaé Market - file: product.json`
+- **Sept 3, 2026:** Documented 50 real products with real prices (cassava, plantain, palm oil, etc.) in FCFA from Awaé Market - file: /.product.json`
 - **Fieldwork:** Interviewed 12 sellers (30min each) - Main finding: MTN cuts 3-4h/day, they lose clients
 - **Test:** Tested SMS collection logic with my uncle - validated that code system can work without internet
 - **Learning:** Currently learning Flutter + SQLite
 - **Next:** Build offline vendor app that shows the 50 products 100% offline + generates OFFGRID code
 
 ### Real Market Data
-- **Live dataset:** [50 products from Awaé Market - Sept 2026](products.json)
+- **Live dataset:** [50 products from Awaé Market - Sept 2026](/.products.json)
 - **Fieldwork log:** [Fieldwork - Sept 3, 2026](./research/fieldwork-03-sept-2026.md)
 
 ### Tech Stack (Planned)
