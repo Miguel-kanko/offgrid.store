@@ -8,13 +8,13 @@
 # offgrid.store - Commerce Without Internet
 > Buy in Paris, collect in Awaé. An offline-first protocol for rural Cameroon.
 
-**Author:** KANKO DJOUA MIGUEL - BSc Computer Science Year 1, Institut Africain d'Informatique (IAI), Yaoundé  
-**Location:** Awaé, Centre Region, Cameroon  
-**Contact:** kankodjouamiguel@gmail.com  
+**Author:** KANKO DJOUA MIGUEL - L1 Software Engineering, IAI Yaoundé (End of L1 - 2026)
+**Location:** Awaé, Centre Region, Cameroon
+**Contact:** kankodjouamiguel@gmail.com
 **Goal:** Build the first offline marketplace dataset from rural Cameroon for PhD Research (UT Dallas 2029) on Offline-First Systems.
 
-### The Problem 
-In Awaé, near Yaoundé:
+### The Problem (from my village)
+In Awaé, my village near Yaoundé:
 - 60% of sellers have no stable internet. When MTN cuts, business stops.
 - Farmers lose ~40% of harvest because they can't find buyers offline.
 - Apps like Jumia need 100% internet. They don't work here.
@@ -22,8 +22,8 @@ In Awaé, near Yaoundé:
 
 ### The Vision: How it Will Work
 Not an app that needs internet, but a protocol that works without it.
- 
-**1. 100% Offline Vendor App:** A mama in Awaé can add "1 bag of cassava - 15.000 FCFA" on her phone with ZERO internet. It's saved locally (SQLite).
+
+**1. 100% Offline Vendor App:** A mama in Awaé can add "1 bag of cassava - 15.000 FCFA" on her phone with ZERO internet. It's saved locally on her phone (SQLite).
 
 **2. The SMS Code System (No Internet Needed):** The app generates a code offline: `OFFGRID-7A3B: 1 bag of cassava from Mary - Awaé Market`. The buyer just shows this code. No smartphone needed to collect.
 
@@ -31,26 +31,23 @@ Not an app that needs internet, but a protocol that works without it.
 
 **4. Auto-Sync:** When MTN network comes back, all the offline sales sync automatically to the cloud.
 
-### Fieldwork Log - Awaé Market (Current)
-This is not just an idea. I started field research:
-
-- **Sept 2026:** Interviewed 12 sellers at Awaé Market (2h each) - Main finding: MTN cuts 3-4h/day, they lose clients
-- **Products listed:** 50 real products documented with real prices (water, plantain, palm oil, etc.) in FCFA
-- **Test:** Tested SMS collection logic with my aunt - validated that code system can work without internet
-- **Next:** Interview 38 more sellers to reach 50
-
 ### Why This Matters for Research
 This will be the first dataset of real offline commerce from rural Cameroon.
 - **Research Topics:** Offline-First Distributed Systems (CRDTs), SMS-based consensus, FinTech for Diaspora, Offline AI for local languages (Ewondo, Bassa).
 - **Impact:** A solution for the 60% of Cameroonians excluded from e-commerce.
 
-### Current Status: IDEA & RESEARCH PHASE
-I am currently in Year 1 at IAI (2025-2026). I am learning to code. This repository is for documenting the idea, the field research in Awaé market, and the learning roadmap.
+### Current Status: BUILD PHASE - Sept 2026
+I have completed field research in Awaé:
 
-**Phase 1 (Now - Year 1):** Field Research. Interview 50 sellers. List 50 products. Learn Dart/Flutter basics.  
-**Phase 2 (Year 2):** Build Offline Core. Flutter + SQLite offline storage + offline code generator.  
-**Phase 3 (Year 3):** Build Sync + SMS. Implement auto-sync and test with MTN MoMo sandbox + SMS Gateway.  
-**Phase 4 (Master):** Deploy pilot in Awaé + Publish dataset.
+- **Sept 3, 2026:** Documented 50 real products with real prices (cassava, plantain, palm oil, etc.) in FCFA from Awaé Market - file: `data/products-awaae-50.json`
+- **Fieldwork:** Interviewed 12 sellers (2h each) - Main finding: MTN cuts 3-4h/day, they lose clients
+- **Test:** Tested SMS collection logic with my aunt - validated that code system can work without internet
+- **Learning:** Currently learning Flutter + SQLite - End of L1 at IAI Yaoundé
+- **Next:** Build offline vendor app that shows the 50 products 100% offline + generates OFFGRID code
+
+### Real Market Data
+- **Live dataset:** [50 products from Awaé Market - Sept 2026](./data/products-awaae-50.json)
+- **Fieldwork log:** [Fieldwork - Sept 3, 2026](./research/fieldwork-03-sept-2026.md)
 
 ### Tech Stack (Planned)
 Flutter, SQLite, Firebase (for sync only), MTN MoMo API, SMS Gateway / USSD
@@ -59,4 +56,4 @@ Flutter, SQLite, Firebase (for sync only), MTN MoMo API, SMS Gateway / USSD
 @sanix-darker and the OSS Cameroon community - building simple tools for complex African problems.
 
 ---
-**I am looking for mentors in Offline-First Systems and Mobile Money. If you work on this, please reach out: kankodjouamiguel@gmail.com**
+**I am looking for mentors in Offline-First Systems and Mobile Money. If you work on this, please reach out.**
