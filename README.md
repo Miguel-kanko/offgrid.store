@@ -13,8 +13,8 @@
 **Contact:** kankodjouamiguel@gmail.com
 **Goal:** Build the first offline marketplace dataset from rural Cameroon for PhD Research (UT Dallas 2029) on Offline-First Systems.
 
-### The Problem (from my village)
-In Awaé, my village near Yaoundé:
+### The Problem
+In Awaé, near Yaoundé:
 - 60% of sellers have no stable internet. When MTN cuts, business stops.
 - Farmers lose ~40% of harvest because they can't find buyers offline.
 - Apps like Jumia need 100% internet. They don't work here.
