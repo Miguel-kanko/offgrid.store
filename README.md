@@ -8,7 +8,7 @@
 # offgrid.store - Commerce Without Internet
 > Buy in Paris, collect in Awaé. An offline-first protocol for rural Cameroon.
 
-**Author:** KANKO DJOUA MIGUEL - L1 Software Engineering, IAI Yaoundé (End of L1 - 2026)
+**Author:** KANKO DJOUA MIGUEL - L1 Software Engineering, IAI Yaoundé
 **Location:** Awaé, Centre Region, Cameroon
 **Contact:** kankodjouamiguel@gmail.com
 **Goal:** Build the first offline marketplace dataset from rural Cameroon for PhD Research (UT Dallas 2029) on Offline-First Systems.
@@ -16,7 +16,7 @@
 ### The Problem
 In Awaé, near Yaoundé:
 - 60% of sellers have no stable internet. When MTN cuts, business stops.
-- Farmers lose ~40% of harvest because they can't find buyers offline.
+- Farmers lose 40% of harvest because they can't find buyers offline.
 - Apps like Jumia need 100% internet. They don't work here.
 - 6 Million Cameroonians in the diaspora (France/USA) want to buy for their family in the village, but can't send Mobile Money to someone who is offline.
 
@@ -39,14 +39,14 @@ This will be the first dataset of real offline commerce from rural Cameroon.
 ### Current Status: BUILD PHASE - Sept 2026
 I have completed field research in Awaé:
 
-- **Sept 3, 2026:** Documented 50 real products with real prices (cassava, plantain, palm oil, etc.) in FCFA from Awaé Market - file: `data/products-awaae-50.json`
+- **Sept 3, 2026:** Documented 50 real products with real prices (cassava, plantain, palm oil, etc.) in FCFA from Awaé Market - file: `data/product.json`
 - **Fieldwork:** Interviewed 12 sellers (2h each) - Main finding: MTN cuts 3-4h/day, they lose clients
-- **Test:** Tested SMS collection logic with my aunt - validated that code system can work without internet
-- **Learning:** Currently learning Flutter + SQLite - End of L1 at IAI Yaoundé
+- **Test:** Tested SMS collection logic with my uncle - validated that code system can work without internet
+- **Learning:** Currently learning Flutter + SQLite
 - **Next:** Build offline vendor app that shows the 50 products 100% offline + generates OFFGRID code
 
 ### Real Market Data
-- **Live dataset:** [50 products from Awaé Market - Sept 2026](./data/products-awaae-50.json)
+- **Live dataset:** [50 products from Awaé Market - Sept 2026](./data/products.json)
 - **Fieldwork log:** [Fieldwork - Sept 3, 2026](./research/fieldwork-03-sept-2026.md)
 
 ### Tech Stack (Planned)
